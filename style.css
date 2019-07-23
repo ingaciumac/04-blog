@@ -1,0 +1,80 @@
+
+htmp {
+	height: 100%;
+}
+
+body {
+    background: #f5f5f5;
+		font-family: 'Lora', serif;
+		font-size: 16px;
+		margin: 0;
+}
+
+nav{
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	background-color: white;
+	text-align: center;
+}
+
+
+.left-col {
+	text-align: right;
+	margin-right: 20px;
+}
+
+.right-col {
+	text-align: left;
+	margin: 20px;
+
+}
+
+h1 {
+    color:#ababab;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 32px;
+		font-weight: normal;
+		margin: 0;
+}
+
+p {
+	line-height: 150%;
+}
+
+.intro-paragraph {
+	font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #1893d2;
+		font-weight: bold;
+		text-decoration: none;
+		letter-spacing: 0.5px;
+	}
+.rox {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+	footer {
+		background-color: #f0f0f0;
+	}
+
+	.social-icon {
+		height: 30px;
+		margin: 50px;
+	}
+
+.social-icons {
+	align-content: center;
+}
+
+.sign {
+	text-align: center;
+	padding: 20px;
+}
