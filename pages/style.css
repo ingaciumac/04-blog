@@ -1,6 +1,6 @@
 h1 {
-	padding-top: 240px;
-	padding-bottom: 60px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 	text-align: center;
 	font-size: 52px;
 	margin: 0;
@@ -45,6 +45,13 @@ u {
   
 }
 
+img {
+	display: block;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
 
 
 .underline {
