@@ -1,20 +1,11 @@
-
-.language {
-	text-align: center;
-}
-
-.contents {
-	margin-left: 25%;
-	margin-right: 25%;
-	margin-top: 200px;
-	color:#0b8457;
+body {
+	font-family: english-grotesque, sans-serif;
 }
 
 h1 {
 	padding-bottom: 0px;
 	font-size: 52px;
 	margin: 0;
-	font-family: english-grotesque, sans-serif;
 	font-weight: 700;
 	line-height: 1.1;
 	letter-spacing: .01em;
@@ -25,22 +16,20 @@ h2 {
 	margin-left: 30%;
 	margin-right: 30%; 
 	color: black;
-    font-size: 20px;
-    line-height: 1.6;
-    padding-top: 30px;
-	font-family: english-grotesque, sans-serif;
+	font-size: 20px;
+	line-height: 1.6;
+	padding-top: 30px;
 	font-weight: 100;
 	font-style: normal;
 	text-align: center;
 	letter-spacing: 0.01em;
 }
-h3 { 
+h3 {
 	color: black;
-    font-size: 14px;
-    line-height: 1.6;
-    padding-top: 0px;
-    padding-bottom: 20px;
-	font-family: english-grotesque, sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	padding-top: 0px;
+	padding-bottom: 20px;
 	font-weight: 100;
 	font-style: normal;
 	letter-spacing: 0.01em;
@@ -52,15 +41,20 @@ a {
 	color: #0b8457;
 }
 
-
-
-.social-icon {
-	height: 20px;
-	margin: 50px;
+a:hover {
+	color: rgba(0 ,0, 0, 0.8);
 }
 
+.contents {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 200px;
+	}
 
-.sign {
-	text-align: center;
-	padding: 20px;
+/* Responsive layout - when the screen is less than 500px wide, make content margin thiner */
+@media screen and (max-width: 500px) {
+	.contents {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 }
